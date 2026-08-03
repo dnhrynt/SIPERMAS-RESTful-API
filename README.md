@@ -1,17 +1,17 @@
-# 📢 SIPERMAS API - Sistem Informasi Pengaduan Masyarakat
+# 📢 SIPERMAS API - Public Complaint Information System
 
-**SIPERMAS API** adalah *backend RESTful API* modern dan tangguh yang dibangun menggunakan **Laravel 12**. Sistem ini dirancang khusus untuk menangani alur pelaporan dan pengaduan masyarakat secara terstruktur, aman, dan efisien.
+**SIPERMAS API** is a modern and robust **RESTful API backend** built with **Laravel 12**. This system is specifically designed to handle public reporting and complaint workflows in a structured, secure, and efficient manner.
 
-Diadaptasi dengan standar industri, proyek ini menerapkan arsitektur *clean code*, perlindungan data ketat via *Role-Based Access Control* (RBAC), transformasi data konsisten, serta mitigasi serangan lalu lintas (*rate limiting*).
+Engineered following industry best practices, the project features a **clean code** architecture, strict data protection via **Role-Based Access Control** (RBAC), consistent data transformation, and traffic management (**rate limiting**).
 
-### ✨ Fitur & Keunggulan Utama
+### ✨ Key Features & Highlights
 
-- 🛡️ **Role-Based Access Control (RBAC)**: Otorisasi tingkat lanjut menggunakan Laravel `Gate` & `Policy` untuk memisahkan hak akses antara Masyarakat, Petugas, dan Admin.
-- ⚡ **Standardized Output Data**: Menggunakan `JsonResource` (`PengaduanResource`, `KategoriResource`) untuk menjamin konsistensi format JSON dan mencegah kebocoran data sensitif.
-- 🔒 **Sistem Keamanan & Throttling**: Proteksi *Mass Assignment* (Model Strict Mode) dan kustomisasi *Rate Limiting* untuk mencegah serangan brute-force / spamming.
-- 🛠️ **Global Exception Handling**: Penanganan error terpusat (401, 403, 404, 500) yang merespon dengan format JSON terstruktur untuk kenyamanan integrasi *frontend*.
-- 📖 **Auto-Generated API Docs**: Dokumentasi API interaktif yang tergenerasi otomatis menggunakan **Laravel Scramble**.
-- 🌐 **CORS Ready**: Siap diintegrasikan dengan aplikasi *frontend* berbasis SPA (React, Vue, Next.js) maupun *mobile app* (Flutter).
+- 🛡️ **Role-Based Access Control (RBAC)**: Advanced authorization using Laravel Gate & Policy to manage distinct access levels for Citizens, Officers, and Admins.
+- ⚡ **Standardized Output Data**: Leverages JsonResource (PengaduanResource, KategoriResource) to guarantee consistent JSON response formats and protect sensitive attributes.
+- 🔒 **Security & Throttling**: Mass Assignment protection via Model Strict Mode alongside custom Rate Limiting to prevent brute-force and spam attacks.
+- 🛠️ **Global Exception Handling**: Centralized error handling (401, 403, 404) that returns structured JSON responses for seamless frontend integration.
+- 📖 **Auto-Generated API Docs**: Interactive API documentation generated automatically with Laravel Scramble.
+- 🌐 **CORS Ready**: Seamlessly integrates with SPA frontends (React, Vue, Next.js) and mobile applications (Flutter).
 
 ### Installation Guide
 - git clone <https://github.com/dnhrynt/SIPERMAS-RESTful-API>
