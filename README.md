@@ -14,10 +14,10 @@ Diadaptasi dengan standar industri, proyek ini menerapkan arsitektur *clean code
 - 🌐 **CORS Ready**: Siap diintegrasikan dengan aplikasi *frontend* berbasis SPA (React, Vue, Next.js) maupun *mobile app* (Flutter).
 
 ### Installation Guide
-git clone <https://github.com/dnhrynt/SIPERMAS-RESTful-API>
-cd sipermas
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate --seed
-php artisan serve
+- git clone <https://github.com/dnhrynt/SIPERMAS-RESTful-API>
+- cd sipermas
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan migrate --seed
+- php artisan serve
